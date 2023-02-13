@@ -1,5 +1,17 @@
-h1 {
-color: blue;
+body{
+    font-family: verdana;
+}*{
+    margin:0;
+    padding:0;
+}
+header,footer{
+    position: absolute;
+    background-color: #1F2937;
+    width:100%;
+    color: white
+}
+header{
+    height: 10vh;
 }
 .flex-container {
     /* display: flex; */
@@ -22,3 +34,11 @@ color: blue;
   .four {
     background-color: white
   }
+  footer{
+    height: 15vh;
+    bottom:0;
+}
+footer h2{
+    position: absolute;
+    left:45%;
+}
